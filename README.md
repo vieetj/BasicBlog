@@ -23,20 +23,3 @@ group :development do
 end
 ```
 After add all gems in Gemfile, use `bundle | bundle install` to install all gems
-
-1. Step 1 - Working with Simple Form
-
-Open Terminal, run command: `rails generate simple_form:install`
-
-2. Step 2 - Working with Guard
-
-- Open Terminal, run command: `guard init livereload` to generate an Guardfile
-- Install extension livereload for your browser: You can reference at: [LiveReload](http://livereload.com/extensions/)
-- After install extension, run Guard through Bundler with: `bundle exec guard`
-
-3. Step 3 - Create Posts controller
-
-- Using command: `rails generate | g controller <name_controller> action1 action2 ... actionN` 
-- Create first view: index.html.erb: `app/view/posts/index.html.erb`
-- Change root of project: `root 'posts#index'`
-- Add resources for project: `resources :posts`
