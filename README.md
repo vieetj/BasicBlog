@@ -13,6 +13,7 @@ A Blog to demonstrate Ruby on Rails with Posts and Comments
 - simple_form: Make form easy with Rails
 - guard: Command line tool to easily handle events on file system modifications
 - guard-livereload: Automatically reloads your browser when 'view' files are modified
+- toastr-rails: Simple javascript toast notifications
 - In group development, add gem:
 ```
 

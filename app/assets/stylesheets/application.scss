@@ -1,1 +1,18 @@
 @import "bulma";
+@import "toastr";
+
+// CSS FOR FOOTER
+.footer {
+  background-color: #209cee;
+}
+
+.content a:link,
+.content a:visited {
+  color: #fff;
+}
+
+.content a:hover,
+.content a:active {
+  color: black;
+  font-weight: bold;
+}

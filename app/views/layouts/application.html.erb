@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BasicBlog</title>
+    <title>Basic Blog</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +11,8 @@
 
   <body>
     <%= render 'shared/header' %>
+    <%= render 'layouts/flash' %>
     <%= yield %>
+    <%= render 'shared/footer' %>
   </body>
 </html>

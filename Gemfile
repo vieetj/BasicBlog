@@ -16,7 +16,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # GEMS FOR PROJECT
 gem 'better_errors', '~> 2.5' # Make errors better looking
 gem 'bulma-rails', '~> 0.7.2' # CSS Framework based on Flexbox
-gem 'simple_form', '~> 4.1' # Make form easy with Rails
+gem 'simple_form', '~> 4.1' # Make form easy with Rails 
 
 
 group :development, :test do
